@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family:  'Helvetica Neue';
+}
+.header, .footer, .trip{
+  top: 0;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 10%;
+}
+.footer{
+  bottom: 0;
+  top: auto;
+  background-color: #000000;
+  color: #B9B9B9;
+  font-size: 15px;
+}
+.trip{
+  height: 40%;
+  bottom: 10%;
+  top: auto;
+}
+.trip img{
+  height: 80%;
+  float: right;
+  bottom: 10%;
+  top: 10%;
+}
+.trip .text{
+  top: 18%;
+  bottom: 10%;
+}
+.align-middle{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.button-red{
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #DF3D39;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+}
+.adventures{
+  top: 10%;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 40%;
+  background-color: #DF3D39;
+  background-size: 5% auto;
+  background-image: url('/assets/pattern.png');
+}
+.adventures .h1{
+  font-size: 80px;
+  line-height: 80px;
+}
+.bottom-stroke{
+  margin-left: 5%;
+  width: 95%;
+  border-bottom: 20px solid #FFFFFF;
+}
+.text-white p{
+  color: #B0B0B0;
+  font-size: 15px;
+}
+.trip .text b{
+    font-size: 22px;
+    font-weight: 600;
+}
+.trip .text .body{
+  font-size: 20px;
+  color: #313131;
+}
+.button-red-bottom{
+  color: #FFFFFF;
+  background-color: #DF3D39;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.modal-header, .modal-body, .modal-footer {
+  background: #DF3D39;
+  border: none;
+  width: 600px;
+  border: 2px solid #ffffff;
+}
+.modal-footer, .modal-body{
+  border-top: none;
+}
+.modal-body, .modal-header{
+  border-bottom: none;
+}
+.modal-body input, .modal-body select{
+  padding-left: 5px;
+  outline: none;
+  width: 100%;
+}
+.modal-body select{
+  height: 30px;
+}
+.button-modal{
+  background-color: #9b1f1b;
+  height: 30px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: auto;
+  color: #FFFFFF;
+}
