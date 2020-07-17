@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import RegisterModal from './add-user';
 
 function App() {
-  const [viewModal, setViewModal] = useState(false);
+  const [viewModal, setViewModal] = useState(true);
   return (
     <div>
       <div className="row m-0 p-0 header align-items-center">

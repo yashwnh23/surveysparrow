@@ -103,9 +103,14 @@ body {
 }
 .button-modal{
   background-color: #9b1f1b;
-  height: 30px;
-  padding: 5px;
-  padding-left: 10px;
+  outline: none;
   padding-right: auto;
   color: #FFFFFF;
+}
+.button-modal:hover{
+  color: #FFFFFF;
+}
+.select-option{
+  margin: 5px;
+  background-color: #B9B9B9;
 }
